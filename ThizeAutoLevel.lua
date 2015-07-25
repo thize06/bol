@@ -25,14 +25,14 @@ local _autoLevel = { spellsSlots = { SPELL_1, SPELL_2, SPELL_3, SPELL_4 }, level
 local __autoLevel__OnTick
 local rOFF=0
 --update func--
-local version = "1.00"
+local version = "3.00"
 local AUTOUPDATE = true
 local UPDATE_HOST = "raw.github.com"
 local UPDATE_PATH = "/thize06/Bol/ThizeAutoLevel.lua".."?rand="..math.random(1,10000)
 local UPDATE_FILE_PATH = SCRIPT_PATH..GetCurrentEnv().FILE_NAME
 local UPDATE_URL = "https://"..UPDATE_HOST..UPDATE_PATH
 
-function _AutoupdaterMsg(msg) print("<b><font color=\"#FF0000\">Giovani Auto Level Spells:</font></b> <font color=\"#FFFFFF\">"..msg.."</font>") end
+function _AutoupdaterMsg(msg) print("<b><font color=\"#FF0000\">Thize Auto Level Spells:</font></b> <font color=\"#FFFFFF\">"..msg.."</font>") end
 if AUTOUPDATE then
 	local ServerData = GetWebResult(UPDATE_HOST, "/prado1506/Bol1/master/AutoLevelSkillTyler1.version")
 	if ServerData then
