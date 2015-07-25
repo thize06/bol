@@ -28,7 +28,7 @@ local rOFF=0
 local version = "4.0"
 local AUTOUPDATE = true
 local UPDATE_HOST = "raw.github.com"
-local UPDATE_PATH = "/thize06/Bol/ThizeAutoLevel.lua".."?rand="..math.random(1,10000)
+local UPDATE_PATH = "/thize06/bol/master/ThizeAutoLevel.lua".."?rand="..math.random(1,10000)
 local UPDATE_FILE_PATH = SCRIPT_PATH..GetCurrentEnv().FILE_NAME
 local UPDATE_URL = "https://"..UPDATE_HOST..UPDATE_PATH
 
