@@ -25,7 +25,7 @@ local _autoLevel = { spellsSlots = { SPELL_1, SPELL_2, SPELL_3, SPELL_4 }, level
 local __autoLevel__OnTick
 local rOFF=0
 --update func--
-local version = "3.00"
+local version = "4.00"
 local AUTOUPDATE = true
 local UPDATE_HOST = "raw.github.com"
 local UPDATE_PATH = "/thize06/Bol/ThizeAutoLevel.lua".."?rand="..math.random(1,10000)
